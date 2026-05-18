@@ -11,5 +11,4 @@ function countVowels(str) {
     return count;
 }
 
-// Example
 console.log(countVowels("javascript")); // 3
