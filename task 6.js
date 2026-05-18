@@ -5,5 +5,5 @@ function isPalindrome(str) {
     return cleaned === reversed;
 }
 
-// Example
+
 console.log(isPalindrome("racecar"));
