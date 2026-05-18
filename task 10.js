@@ -10,7 +10,6 @@ async function fetchWithTimeout(url, ms) {
     return Promise.race([fetchRequest, timeout]);
 }
 
-// Example
 fetchWithTimeout("https://api.com", 200)
     .then(response => console.log(response))
     .catch(error => console.log(error.message));
