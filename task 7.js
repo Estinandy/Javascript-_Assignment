@@ -6,5 +6,4 @@ function titleCase(str) {
         .join(" ");
 }
 
-// Example
 console.log(titleCase("i love coding"));
